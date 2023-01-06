@@ -4,6 +4,12 @@
 body{
     background-color: rgb(56, 56, 56);
 }
+h1{
+    margin:50px 20px;
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container{
     text-align: center;
     background-color: aliceblue;
@@ -16,12 +22,7 @@ body{
     background-color: rgb(42, 42, 42);
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.19), 10px 6px 46px rgba(0, 0, 0, 0.23);
 }
-h1{
-    margin:50px 20px;
-    color: aliceblue;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 .screen {
     height: 100px;
     border-radius: 15px;
@@ -81,4 +82,31 @@ footer p{
     margin: 67px 0 0 0;
    font-family: Arial, Helvetica, sans-serif;
    letter-spacing: 1px;
+}
+@media screen and (max-width: 768px) {
+    h1{
+        margin:10px;
+    }
+    .container{
+        width: 300px;
+        height: 450px;
+        margin: 5px auto;
+        padding: 5px;
+        border: 2px outset rgba(42, 42, 42, 0.419);
+    }
+    .screen {
+        height: 70px;
+    }
+    .btn {
+        width: 50px;
+    }
+    .btn-equal{
+        width: 110px;
+    }
+    .btn-clear{
+        width: 110px;
+    }
+    footer p{
+        margin: 0px 0 0 0;
+    }
 }
