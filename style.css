@@ -90,7 +90,7 @@ footer p{
     .container{
         width: 300px;
         height: 450px;
-        margin: 5px auto;
+        margin: 30px auto;
         padding: 5px;
         border: 2px outset rgba(42, 42, 42, 0.419);
     }
@@ -106,7 +106,9 @@ footer p{
     .btn-clear{
         width: 110px;
     }
-    footer p{
-        margin: 0px 0 0 0;
+    footer p {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
     }
 }
